@@ -57,7 +57,7 @@ for flakeline in fh.readlines():
             lazy_replace_line(filename, line, new_line)
 
 for rep in replacements:
-    print rep
+    print(rep)
 
 replace = raw_input("Commit all these replacements [y/N] ")
 if replace.lower() == 'y':
